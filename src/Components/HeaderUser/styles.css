@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 7vw;
+    background-color: #FFC100;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+.img-header {
+    width: 5%;
+    margin: 1%;
+}
+
+.botao-carrinho {
+    width: 5%;
+    margin: 1%;
+    background-image: url('../../imagens/carrinho2.svg');
+    background-color: #FFC100;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
