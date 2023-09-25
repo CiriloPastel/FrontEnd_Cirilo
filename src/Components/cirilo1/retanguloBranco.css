@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+
+#container{
+    width: 20vw;
+    height: 61vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 16rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.70);
+    border-radius: 40px;   
+    font-family: 'Be Vietnam Pro', sans-serif 
+}
+
+
+#top{
+    font-size: 1.5rem;
+    height: 5.5rem;
+    text-align: center;
+    background-color: #FFC40D;
+    -webkit-border-top-left-radius: 40px;
+    -webkit-border-top-right-radius: 40px;
+    color: #585037;
+    
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+
+#formulario{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Be Vietnam Pro', sans-serif
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+#entrada{
+    border: none;
+    border-bottom: 1px solid #FFC40D;
+    font-family: 'Be Vietnam Pro', sans-serif
+}
+
+#botao{
+    border-radius: 6rem ;
+    border-color: #FFC40D;
+    width: 8vw;
+    height: 6vh;
+    margin-left: 3.2rem;
+    background-color: #FFC40D;
+    color: #fff;
+    font-family: 'Be Vietnam Pro', sans-serif, bold;
+}
+
+#asterisco{
+    color:  #FFC40D;
+}
+
+#requisitEmail{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
