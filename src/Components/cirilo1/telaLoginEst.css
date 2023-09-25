@@ -1,0 +1,76 @@
+
+
+.Parg1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #585037;
+    font-size: 1.7rem;
+    z-index: 1000;
+    margin-left: 2rem;
+}
+
+.Parg2{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #585037;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    z-index: 1000;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.LoginCirilo {
+    color: #585037;
+    margin: 0;
+    z-index: 1000;
+}
+
+.divCirilo{
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    size: 4rem;
+    margin-left: 2rem;
+}
+
+.ImagemCiri{
+    width: 8.25rem;
+    height: 8.25rem;
+    margin:0;
+    z-index: 1000;
+}
+
+.pastel{
+    border: none;
+    width: 28rem;
+    height: 7rem;
+    z-index: 1000;
+}
+
+.pastelColorido{
+    color: #FFC100;
+}
+
+.FundoAmarelo{
+    background-image: url('../../images/Frame15.png ');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* overflow: hidden; */
+
+}
+
+.block{
+    box-shadow: 2rem 2rem 0 0;
+    color: #D9D9D9;
+}
+
+em{
+    color: #FFC100;
+}
+
