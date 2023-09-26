@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+#containerPED{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+  font-family: "Be Vietnam Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 75vw;
+  font-weight: 600;
+  color: #585037;
+}
+#left img {
+  width: 50px;
+}
+#left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#left p {
+  color: #585037;
+  font-weight: bold;
+  font-size: 20px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  border: 3px solid #ffdb6b;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.top button {
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 230px;
+  border: none;
+  color: #fff;
+  background-color: #58e434;
+  font-weight: bold;
+}
+
+.agrpPasteis{
+    padding: 20px;
+}
+.pasteis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF4D2;
+  padding: 10px;
+}
+
+#maxmin {
+  display: flex;
+  gap: 10px;
+}
+
+#maxmin button {
+  border: none;
+  background: none;
+  color: #585037;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#downdiv{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #ffdb6b;
+    padding: 20px;
+}
