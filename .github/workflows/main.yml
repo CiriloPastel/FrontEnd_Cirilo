@@ -1,0 +1,13 @@
+name: Render
+on: 
+  pull_request: 
+    branches: [ "main" ]
+jobs:
+    build: 
+      runs-on: ubuntu-latest
+      steps:
+      - name: Deploy site Cirilo
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with: 
+          service-id: ${{SECRETS.SERVICE_ID}}
+          api-key: ${{SECRETS.API_KEY}}
