@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.css';
-import pastelPensamento from '../../imagens/pastelPensamento.png'
-import ciriloErro from '../../imagens/ciriloErro.png';
+import pastelPensamento from '../../Assets/pastelPensamento.png'
+import ciriloErro from '../../Assets/ciriloErro.png';
 
 function ErroTela(){
     return(

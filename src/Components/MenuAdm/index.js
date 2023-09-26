@@ -1,6 +1,6 @@
 
 
-import cirilo from '../../imagens/Cirilo.png'
+import cirilo from '../../Assets/Cirilo.png'
 import './styles.css'
 // import pastel1 from './imagens/1 pastel.png';
 // import pastel2 from './imagens/2 pastel.png';

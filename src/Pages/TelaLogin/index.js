@@ -1,8 +1,8 @@
 import React from 'react';
-import imgLogin from '../../images/Frame121.png'
-import imgPastel from '../../images/1pastel.png'
-import './telaLoginEst.css'; 
-import RetanguloBranco from './retanguloBranco';
+import imgLogin from '../../Assets/Frame121.png'
+import imgPastel from '../../Assets/1pastel.png'
+import './styles.css'; 
+import RetanguloBranco from '../RetanguloBranco/index';
 
 function Login() {
   return (

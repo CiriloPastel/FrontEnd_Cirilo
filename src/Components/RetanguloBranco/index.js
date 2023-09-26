@@ -1,4 +1,4 @@
-import './retanguloBranco.css'
+import './styles.css'
 
 function RetanguloBranco() {
     return(
