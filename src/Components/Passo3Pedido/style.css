@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+.container {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #585037;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+}
+#progressBar {
+  margin: 15px 0px;
+  width: 500px; 
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  padding: 30px;
+    position: relative;
+    border: 3px solid #FFDB6B;
+    border-radius: 10px;
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */  
+    gap: 80px;
+}
+#ciriloImg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 150px
+}
+
+#return{
+  width: 300px;
+  padding: 15px 0;
+  border: none;
+  background-color: #57E534;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+}
