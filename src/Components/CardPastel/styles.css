@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+.container {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+div.top {
+  width: 350px;
+  height: 36px;
+  flex-shrink: 0;
+  background-color: #fff4d2;
+}
+
+h5 {
+  text-align: center;
+  color: var(--585037, #585037);
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #fff4d2;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+div.background {
+  /* margin-top: 500px; */
+  position: relative;
+  /* background: url("../../imagens/pastelCard.png"); */
+  background-repeat: repeat;
+  width: 350px;
+  max-height: 240px;
+  flex-shrink: 0;
+  border: 5px solid var(--FFF4D2, #fff4d2);
+  background: var(--n, #fff);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1em;
+}
+
+button.detalhes {
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  border-radius: 25px;
+  background: var(--ffc-40-d, #ffc40d);
+  width: 274px;
+  height: 50px;
+  flex-shrink: 0;
+  border-color: #ffc40d;
+  color: var(--n, #fff);
+  margin-right: 30px;
+}
+
+#mais {
+  font-size: 30px;
+  background-color: #ffc40d;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 5000px;
+  color: var(--n, #fff);
+}
+
+#mais:hover {
+  background-color: #ffdf7f;
+}
+
+p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 10px;
+  font-size: 25px;
+  text-align: start;
+  width: 110px;
+  height: 50px;
+  margin: 0;
+  border-radius: 10px;
+  color: #585037;
+  font-weight: 700;
+}
+
+.imgdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#imgpastel {
+  width: 170px;
+  height: 150px;
+  margin-bottom: 40px;
+}
