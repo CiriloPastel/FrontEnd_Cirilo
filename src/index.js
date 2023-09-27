@@ -4,12 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ErroTela from './Components/ErroTela';
 import HeaderUser from './Components/HeaderUser';
+import CardPastel from './Components/CardPastel'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HeaderUser/>
-    <ErroTela />
+    <CardPastel />
   </React.StrictMode>
   
 );
