@@ -2,7 +2,7 @@ import React from 'react';
 import imgLogin from '../../Assets/Frame121.png'
 import imgPastel from '../../Assets/1pastel.png'
 import './styles.css'; 
-import RetanguloBranco from '../RetanguloBranco/index';
+import RetanguloBranco from '../../Components/RetanguloBranco/index.js';
 
 function Login() {
   return (
